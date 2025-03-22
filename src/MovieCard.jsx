@@ -14,7 +14,7 @@ const MovieCard = ({ movie }) => {
   return (
     <div className="movie-card">
       <img 
-        src={movie.Poster || 'https://via.placeholder.com/300x450?text=No+Poster'} 
+        src={movie.Poster} 
         alt={movie.Title}
         className="movie-poster"
       />
